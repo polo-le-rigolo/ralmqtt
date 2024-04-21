@@ -73,3 +73,6 @@ This command runs ralmqtt in **discovery mode** against the MQTT broker at `192.
 - `python3 ralmqtt.py -m dos -a 192.168.246.147`
 
 This command runs ralmqtt in **DoS mode** to perform a Slow Denial of Service attack against the MQTT broker at `192.168.246.147`.
+
+Soon to be added : 
+Connect packet sniffing mode, clientId bruteforce support
