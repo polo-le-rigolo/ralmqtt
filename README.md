@@ -41,14 +41,6 @@ Once you are done using the tool just deactivate the venv with the command **dea
 
 ## Usage
 
-  _____            _      __  __  ____ _______ _______
- |  __ \     /\   | |    |  \/  |/ __ \__   __|__   __|
- | |__) |   /  \  | |    | \  / | |  | | | |     | |
- |  _  /   / /\ \ | |    | |\/| | |  | | | |     | |
- | | \ \  / ____ \| |____| |  | | |__| | | |     | |
- |_|  \_\/_/    \_\______|_|  |_|\___\_\ |_|     |_|
-
-
 Made by eddym@lou // [https://www.redalertlabs.com](https://www.redalertlabs.com)
 Your IoT Cybersecurity Trusted Partner
 Bringing Trust to the Internet of Things
