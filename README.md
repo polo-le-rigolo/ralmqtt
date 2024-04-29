@@ -62,7 +62,7 @@ Options:
 
 This command runs ralmqtt in **discovery mode** to find information about the MQTT broker at `test.mosquitto.org`.
 
-- `bash python3 ralmqtt.py -m bruteforce -a 192.168.246.147 -w /usr/share/wordlists/rockyou.txt`
+- `python3 ralmqtt.py -m bruteforce -a 192.168.246.147 -w /usr/share/wordlists/rockyou.txt`
 
 This command runs ralmqtt in **bruteforce mode** against the MQTT broker at `192.168.246.147`, using the specified wordlist `/usr/share/wordlists/rockyou.txt`.
 
@@ -73,6 +73,10 @@ This command runs ralmqtt in **discovery mode** against the MQTT broker at `192.
 - `python3 ralmqtt.py -m dos -a 192.168.246.147`
 
 This command runs ralmqtt in **DoS mode** to perform a Slow Denial of Service attack against the MQTT broker at `192.168.246.147`.
+
+You will also find a `testdos.sh` script in this repository. As its name suggests, the goal of this script is to test the DoS mode of the tool. 
+Download the script, change execution permission and execute it. It will publish to the topic test/dos a message saying that the broker is still up. 
+On a different terminal launch the following commmand : `mosquitto_sub -h broker_addr -t 'test/dos'`
 
 Soon to be added : 
 Connect packet sniffing mode, clientId bruteforce support
